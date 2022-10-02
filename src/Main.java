@@ -32,5 +32,16 @@ public class Main {
             System.out.println(year+ " год не высокосный");
 
         }
+        System.out.println("Задание 4");
+        int deliveryDistance = 17;
+
+        if (deliveryDistance < 20) {
+            System.out.println("Потребуется 1 день");
+        }else if (deliveryDistance < 60) {
+            System.out.println("Потребуется 2 дня");
+        }else{
+            System.out.println("Потребуется 3 дня");
+        }
     }
 }
+
